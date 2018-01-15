@@ -164,6 +164,7 @@ public class User {
 		return modifyDate;
 	}
 	public void setModifyDate(Date modifyDate) {
+		//gfdgd
 		this.modifyDate = modifyDate;
 	}
 }
