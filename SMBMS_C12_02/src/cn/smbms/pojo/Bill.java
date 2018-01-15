@@ -106,6 +106,21 @@ public class Bill {
 	public void setModifyDate(Date modifyDate) {
 		this.modifyDate = modifyDate;
 	}
+	@Override
+	public String toString() {
+		return "Bill [id=" + id + ", billCode=" + billCode + ", productName=" + productName + ", productDesc="
+				+ productDesc + ", productUnit=" + productUnit + ", productCount=" + productCount + ", totalPrice="
+				+ totalPrice + ", isPayment=" + isPayment + ", providerId=" + providerId + ", createdBy=" + createdBy
+				+ ", creationDate=" + creationDate + ", modifyBy=" + modifyBy + ", modifyDate=" + modifyDate
+				+ ", providerName=" + providerName + ", getProviderName()=" + getProviderName() + ", getId()=" + getId()
+				+ ", getBillCode()=" + getBillCode() + ", getProductName()=" + getProductName() + ", getProductDesc()="
+				+ getProductDesc() + ", getProductUnit()=" + getProductUnit() + ", getProductCount()="
+				+ getProductCount() + ", getTotalPrice()=" + getTotalPrice() + ", getIsPayment()=" + getIsPayment()
+				+ ", getProviderId()=" + getProviderId() + ", getCreatedBy()=" + getCreatedBy() + ", getCreationDate()="
+				+ getCreationDate() + ", getModifyBy()=" + getModifyBy() + ", getModifyDate()=" + getModifyDate()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
 	
 	
 }
